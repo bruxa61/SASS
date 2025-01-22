@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="light-theme">
+    <header>
+        <h1>Meu Portfólio</h1>
+        <label class="switch" aria-label="Alternar Tema">
+            <input type="checkbox" id="theme-toggle">
+            <span class="slider round"></span>
+          </label>
+    </header>
+    <main class="portfolio">
+        <div class="project-card">
+            <img src="IMG/projeto1.jpg" alt="Projeto 1">
+            <h2>Projeto 1</h2>
+            <button class="btn-primary" data-modal="modal-1">Ver Projeto</button>
+        </div>
+         <div class="project-card">
+            <img src="IMG/projeto2.jpg" alt="Projeto 2">
+            <h2>Projeto 2</h2>
+            <button class="btn-primary" data-modal="modal-2">Ver Projeto</button>
+        </div>
+        <div class="project-card">
+            <img src="IMG/projeto3.jpg" alt="Projeto 3">
+            <h2>Projeto 3</h2>
+            <button class="btn-primary" data-modal="modal-3">Ver Projeto</button>
+        </div>
+    </main>
+
+    <div id="modal-1" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">×</span>
+            <h2>Projeto 1</h2>
+             <p>Descrição detalhada do Projeto 1.</p>
+            <img src="IMG/projeto1.jpg" alt="Projeto 1">
+        </div>
+    </div>
+
+     <div id="modal-2" class="modal">
+        <div class="modal-content">
+             <span class="modal-close">×</span>
+             <h2>Projeto 2</h2>
+             <p>Descrição detalhada do Projeto 2.</p>
+             <img src="IMG/projeto2.jpg" alt="Projeto 2">
+        </div>
+    </div>
+
+     <div id="modal-3" class="modal">
+         <div class="modal-content">
+             <span class="modal-close">×</span>
+              <h2>Projeto 3</h2>
+             <p>Descrição detalhada do Projeto 3.</p>
+             <img src="IMG/projeto3.jpg" alt="Projeto 3">
+        </div>
+    </div>
+
+     <!-- FOOTER -->
+     <footer>© 2025 | Feito com SASS</footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

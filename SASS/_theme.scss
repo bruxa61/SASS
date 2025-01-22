@@ -1,0 +1,95 @@
+@import 'variables';
+
+.light-theme {
+  // background-color: $light-bg-color;
+  color: $light-text-color;
+
+  .project-card {
+    background-color: $light-card-bg;
+  }
+
+  .modal-content {
+    background-color: $light-card-bg;
+  }
+}
+
+
+.dark-theme {
+  background-color: $dark-bg-color;
+  color: $dark-text-color;
+
+  .project-card {
+    background-color: $dark-card-bg;
+  }
+
+  .modal-content {
+    background-color: $dark-card-bg;
+  }
+
+  .btn-primary{
+    background-color: $dark-btn;
+  }
+
+  header {
+    background-color: $dark-header-bg;
+  }
+
+  footer {
+    background-color: $dark-footer-bg;
+  }
+
+}
+
+
+/* Estilos Gerais */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin: 0 20px; 
+
+  input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+
+    &:checked+.slider {
+      background-color: #9eb249; 
+      &:before {
+        transform: translateX(26px); 
+      }
+    }
+  }
+
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #3b3633; 
+    transition: 0.4s;
+    border-radius: 34px;
+
+    &:before {
+      position: absolute;
+      content: "";
+      height: 26px;
+      width: 26px;
+      left: 4px;
+      bottom: 4px;
+      background-color: white;
+      transition: 0.4s;
+      border-radius: 50%;
+    }
+  }
+
+  &.round {
+    .slider {
+      border-radius: 34px;
+    }
+  }
+
+}
