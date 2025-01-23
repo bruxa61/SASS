@@ -11,19 +11,33 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 ```
 npm install -g sass
 ```
+- Baixar extenção do VS Code "Live Sass Compiler"
 
-## ☕ Usando <nome_do_projeto>
+## ☕ Usando SASS
 
-Para usar <nome_do_projeto>, siga estas etapas:
+Siga estas etapas:
 
+- Crie uma pasta chamada "Aprendendo SASS" e abra ela no VS Code
+- Crie um arquivo dentro desta pasta chamado index.html e insira o código a seguir:
 ```
-<exemplo_de_uso>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo SASS</title>
+</head>
+
+<body>
+    <header>
+        <h1>Aprendendo Sass</h1>
+        <button>Botão</button>
+    </header>
+    <div class="contato">
+        <h2>Outra div</h2>
+        <button>Outro botão</button>
+    </div>
+</body>
+
+</html>
 ```
-
-
-
-Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
-
-## 📝 Licença
-
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
