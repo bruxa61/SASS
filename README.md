@@ -11,7 +11,10 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 ```
 npm install -g sass
 ```
-- Baixar extenção do VS Code "Live Sass Compiler"
+- Baixar extenção do VS Code "Live Sass Compiler" ou usar o código a seguir no terminal para fazer a compilação.
+```
+npx sass sass/style.scss css/style.css --watch
+```
 
 ## ☕ Usando SASS
 
